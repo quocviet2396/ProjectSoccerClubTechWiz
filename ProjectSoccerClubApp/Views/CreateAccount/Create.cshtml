@@ -1,0 +1,66 @@
+﻿@model ProjectModels.User
+@{
+    ViewBag.Title = "Register";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+    <div class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="d-flex align-items-center justify-content-center w-100">
+            <div class="row justify-content-center w-100">
+                <div class="col-md-8 col-lg-6 col-xxl-3">
+                    <div class="card mb-0">
+                        <div class="card-body">
+                            <a asp-action="Index" asp-controller="Frontend" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                                <img src="~/images/logo.svg.png" width="180">
+                            </a>
+                            <p class="fs-4 mb-0 fw-bold text-center">Welcome to Inter Miami FC</p>
+                            @if (!string.IsNullOrEmpty(ViewBag.errormsg))
+                            {
+                                <div class="alert alert-danger">
+                                    @ViewBag.errormsg
+                                </div>
+                            }
+                            <br />
+                            <form asp-action="Create" method="post" asp-controller="CreateAccount" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label for="Username" class="form-label">User Name</label>
+                                    <input asp-for="Username" class="form-control" aria-describedby="textHelp">
+                                    <span asp-validation-for="Username" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Email" class="form-label">Email Address</label>
+                                    <input asp-for="Email" class="form-control" aria-describedby="emailHelp">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="Password" class="form-label">Password</label>
+                                    <input asp-for="Password" type="password" class="form-control">
+                                    <span asp-validation-for="Password" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="PhoneNumber" class="form-label">Phone Number</label>
+                                    <input asp-for="PhoneNumber" class="form-control" aria-describedby="phoneHelp">
+                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Address" class="form-label">Address</label>
+                                    <input asp-for="Address" class="form-control" aria-describedby="addressHelp">
+                                    <span asp-validation-for="Address" class="text-danger"></span>
+                                </div>
+                                <input type="hidden" asp-for="Role" value="false" />
+
+                                <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</button>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <p class="fs-4 mb-0 fw-bold">Already have an Account?</p>
+                                    <a class="text-primary fw-bold ms-2" href="./authentication-login.html">Sign In</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,155 @@
+﻿@model IEnumerable<ProjectModels.Products>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_BackendLayout";
+    int i = 1;
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <!-- Change this content if you need to modify -->
+        <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-semibold mb-4">Product</h5>
+                    <a class="btn btn-info" asp-action="Create" asp-controller="Product">Create Product</a>
+                    <div class="table-responsive">
+                        <table class="table text-nowrap mb-0 align-middle">
+                            <thead class="text-dark fs-4">
+                                <tr class="text-center">
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">#</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Category</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Name</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Slug</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Quantity</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Photo</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Description</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">OriginalPrice</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">SellingPrice</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Trending</h6>
+                                    </th>
+
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Featured</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Status</h6>
+                                    </th>
+
+
+
+
+
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Action</h6>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="text-center">
+                                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">@i</h6></td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Category.Name)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Name)</p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Slug)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Quantity)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <p class="mb-0 fw-normal">
+
+                                                <img src="@Url.Content("~/images/ProductPhoto/"+item.Photo)" width="50" height="50">
+
+                                            </p>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Descrption)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.OriginalPrice)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.SellingPrice)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Trending)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.Featured)</p>
+                                            </div>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <p class="mb-0 fw-normal">@Html.DisplayFor(modelItem => item.status)</p>
+                                            </div>
+                                        </td>
+
+
+
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <a asp-action="Edit" asp-controller="Product" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                                @await Html.PartialAsync("_DeleteForm", item.Id)
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End change -->
+
+    </div>
+</div>
+

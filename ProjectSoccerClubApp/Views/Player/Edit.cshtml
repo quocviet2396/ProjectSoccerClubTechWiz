@@ -1,0 +1,90 @@
+﻿@model ProjectModels.Player
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Edit player: @Model.PlayerName </h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <form asp-action="Edit" asp-controller="Player" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="Id" />
+                                <div class="mb-3">
+                                    <label asp-for="PlayerName" class="control-label"></label>
+                                    <input asp-for="PlayerName" class="form-control" />
+                                    <span asp-validation-for="PlayerName" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PlayerPosition" class="control-label"></label>
+                                    <input asp-for="PlayerPosition" class="form-control" />
+                                    <span asp-validation-for="PlayerPosition" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PlayerDOB" class="control-label"></label>
+                                    <input asp-for="PlayerDOB" class="form-control" />
+                                    <span asp-validation-for="PlayerDOB" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PlayerNationality" class="control-label"></label>
+                                    <input asp-for="PlayerNationality" class="form-control" />
+                                    <span asp-validation-for="PlayerNationality" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    @if (Model != null)
+                                    {
+                                        <img src="@Url.Content("~/images/PlayerImg/" +Model.PlayerImg)" width="150" height="150" />
+                                    }
+                                    else
+                                    {
+                                        <img src="" width="110" />
+                                    }
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PlayerImg" class="control-label"></label>
+                                    <input asp-for="PlayerImg" type="file" name="file" class="form-control" />
+                                    <span asp-validation-for="PlayerImg" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="PlayerOVR" class="control-label"></label>
+                                    <input asp-for="PlayerOVR" class="form-control" />
+                                    <span asp-validation-for="PlayerOVR" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="TeamId" class="control-label"></label>
+                                    <select asp-for="TeamId" class="form-control" asp-items="ViewBag.TeamId"></select>
+                                    <span asp-validation-for="TeamId" class="text-danger"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="submit" value="Edit" name="edit" class="btn btn-primary" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a asp-action="Index">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

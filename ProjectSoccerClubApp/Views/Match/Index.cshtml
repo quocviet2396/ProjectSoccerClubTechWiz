@@ -1,0 +1,100 @@
+﻿@model IEnumerable<ProjectModels.Match>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_BackendLayout";
+    int i = 1;
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <!-- Change this content if you need to modify -->
+        <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="card w-100">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-semibold mb-4">Team</h5>
+                    <a class="btn btn-info" asp-action="Create" asp-controller="Match">Create new Match</a>
+                    <div class="table-responsive">
+                        <table class="table text-nowrap mb-0 align-middle">
+                            <thead class="text-dark fs-4">
+                                <tr class="text-center">
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">#</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.MatchTime)</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.Stadium)</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.HomeTeam)</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.AwayTeam)</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.Result)</h6>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h6 class="fw-semibold mb-0">Action</h6>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="text-center">
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-0"> @i </h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-0">@Html.DisplayFor(modelItem => item.MatchTime)</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@Html.DisplayFor(modelItem => item.Stadium)</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@Html.DisplayFor(modelItem => item.HomeTeam.TeamName)</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@Html.DisplayFor(modelItem => item.AwayTeam.TeamName)</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-0 fs-4">@Html.DisplayFor(modelItem => item.Result)</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <form asp-action="Delete" asp-controller="Match" method="post" enctype="multipart/form-data">
+                                                    <input type="hidden" name="id" value="@item.Id">
+                                                    <button type="submit" class="btn btn-danger">
+                                                        <i class="fa fa-trash"></i>
+                                                    </button>
+                                                </form>
+                                                <a class="btn btn-info" asp-route-id="@item.Id" asp-action="Edit" asp-controller="Match">
+                                                    <i class="fa fa-gear"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End change -->
+
+    </div>
+</div>
+
+

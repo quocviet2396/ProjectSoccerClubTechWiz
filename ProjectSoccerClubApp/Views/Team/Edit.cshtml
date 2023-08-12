@@ -1,0 +1,59 @@
+﻿@model ProjectModels.Team
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_BackendLayout";
+}
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+      
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title fw-semibold mb-4">Edit @Model.TeamName Team</h5>
+                    <div class="card">
+                        <div class="card-body">
+                            <form asp-action="Edit" asp-controller="Team" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="mb-3">
+                                    <label asp-for="CoachName" class="form-label"></label>
+                                    <input asp-for="CoachName" class="form-control" />
+                                    <span asp-validation-for="CoachName" class="text-danger form-text"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <label asp-for="Website" class="form-label"></label>
+                                    <input asp-for="Website" class="form-control" />
+                                    <span asp-validation-for="Website" class="text-danger form-text"></span>
+                                </div>
+                                <div class="mb-3">
+                                    <img src="@Url.Content("~/images/Logo/"+Model.Logo)" width="150" height="150" />
+                             
+                                    <input type="file" name="file" class="form-control"/>
+                                    <span asp-validation-for="Logo" class="text-danger form-text"></span>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="btn btn-primary" asp-action="Index">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

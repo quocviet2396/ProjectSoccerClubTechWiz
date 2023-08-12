@@ -1,0 +1,54 @@
+﻿@model ProjectModels.Player
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="site-section" data-aos="fade-up">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <button class="btn btn-outline-warning"><img src="@Url.Content("~/images/PlayerImg/" +Model.PlayerImg)" width="320" height="320" /></button>
+            </div>
+            <div class="col-md-8 pl-md-5">
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-info"><h2>Profile</h2></button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-primary">Player Name</button>
+                        <button class="btn btn-warning">@Html.DisplayFor(model => model.PlayerName)</button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-primary">Overall Rating</button>
+                        <button class="btn btn-warning">@Html.DisplayFor(model => model.PlayerOVR)</button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-primary">Position</button>
+                        <button class="btn btn-warning"> @Html.DisplayFor(model => model.PlayerPosition)</button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-primary">Date of bitrh</button>
+                        <button class="btn btn-warning"> @Html.DisplayFor(model => model.PlayerDOB)</button>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-outline-primary">National</button>
+                        <button class="btn btn-warning"> @Html.DisplayFor(model => model.PlayerNationality)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+               

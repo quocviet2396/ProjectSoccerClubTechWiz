@@ -1,0 +1,201 @@
+﻿@model List<ProjectModels.CartItem>;
+
+@{
+    ViewBag.Title = "Cart";
+    var cartSubTotal = ViewData["CartSubTotal"] as int? ?? 0;
+    int shipping = cartSubTotal * 5 / 100;
+}
+
+@section styles {
+    <link href="~/shop/css/style.css" rel="stylesheet">
+}
+
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5">
+        <div class="col-lg-8 table-responsive mb-5">
+            <table class="table table-bordered text-center mb-0">
+                <thead class="bg-secondary text-dark">
+                    <tr>
+                        <th>Products</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody class="align-middle">
+                    @if (Model != null)
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr id="row_@item.Product.Id">
+                                <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;">@item.Product.Name</td>
+                                <td class="align-middle">$@item.Product.OriginalPrice</td>
+                                <td class="align-middle">
+                                    <div class="input-group quantity mx-auto" style="width: 100px;">
+                                        <form asp-action="ChangeQuantity" asp-controller="Cart">
+                                            <div class="input-group-btn">
+                                                <input type="submit" class="btn btn-sm btn-primary btn-minus" name="minus" value="-">
+                                            </div>
+                                            <input type="hidden" name="pid" value="@item.Product.Id">
+                                            <input type="text" name="qty" class="form-control form-control-sm bg-secondary text-center" value="@item.Qty">
+                                            <div class="input-group-btn">
+                                                <input type="submit" class="btn btn-sm btn-primary btn-plus" name="plus" value="+">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </td>
+                                <td class="align-middle" id="subtotal_@item.Product.Id">
+                                    $@(Int32.Parse(item.Product.OriginalPrice) * item.Qty)
+                                </td>
+                                <td class="align-middle"><button class="btn btn-sm btn-primary delete-cart-btn" data-pid="@item.Product.Id"><i class="fa fa-times"></i></button></td>
+                            </tr>
+
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td class="text-center" colspan="5">Cart is empty.</td>
+                        </tr>
+                    }
+
+                   
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <!--<form class="mb-5" action="">
+                <div class="input-group">
+                    <input type="text" class="form-control p-4" placeholder="Coupon Code">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary">Apply Coupon</button>
+                    </div>
+                </div>
+            </form>-->
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Cart Summary</h4>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex justify-content-between mb-3 pt-1">
+                        <h6 class="font-weight-medium">Subtotal</h6>
+                        <h6 id="cart-subtotal" class="font-weight-medium">$@cartSubTotal</h6>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-medium">Shipping</h6>
+                        <h6 id="cart-shipping" class="font-weight-medium">$@shipping</h6>
+                    </div>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <div class="d-flex justify-content-between mt-2">
+                        <h5 class="font-weight-bold">Total</h5>
+                        <h5 id="cart-total" class="font-weight-bold">$@(cartSubTotal + shipping)</h5>
+                    </div>
+                    <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/shop/lib/easing/easing.min.js"></script>
+    <script src="~/shop/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/shop/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            const qtyIcon = $("header nav ul.site-menu li a span#cart-icon-quantity-layout").get(0);
+
+            $(".btn-minus, .btn-plus").click(function (event) {
+                event.preventDefault();
+
+                var form = $(this).closest("form");
+                var qtyInput = form.find("input[name='qty']");
+                var pid = form.find("input[name='pid']").val();
+                var currentQty = parseInt(qtyInput.val());
+                var newQty = currentQty;
+
+                if ($(this).hasClass("btn-minus")) {
+                    newQty = Math.max(1, currentQty - 1);
+                } else {
+                    newQty = currentQty + 1;
+                }
+
+                // Cập nhật giá trị số lượng trong input
+                qtyInput.val(newQty);
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Cart/ChangeQuantity",
+                    data: { pid: pid, qty: newQty },
+                    success: function (response) {
+                        $("#subtotal_" + pid).html("$" + response.cartItemSubTotal);
+                        $(qtyIcon).html(response.cartQuantity);
+                        $("#cart-subtotal").html("$" + response.cartSubTotal);
+                        $("#cart-shipping").html("$" + (response.cartSubTotal * 5 / 100));
+                        $("#cart-total").html("$" + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                    },
+                    error: function () {
+                        console.log("Error occurred during AJAX request.");
+                    }
+                });
+            });
+
+            $("form").submit(function (event) {
+                event.preventDefault();
+
+                
+                var pid = $(this).find("input[name='pid']").val();
+                var qty = $(this).find("input[name='qty']").val();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Cart/ChangeQuantity",
+                    data: { pid: pid, qty: qty },
+                    success: function (response) {
+                        // Cập nhật partial view _ViewCartSubtotal
+                        $("#subtotal_" + pid).html("$" + response.cartItemSubTotal);
+                        $(qtyIcon).html(response.cartQuantity);
+                        $("#cart-subtotal").html("$" + response.cartSubTotal);
+                        $("#cart-shipping").html("$" + (response.cartSubTotal * 5 / 100));
+                        $("#cart-total").html("$" + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                    },
+                    error: function () {
+                        console.log("Error occurred during AJAX request.");
+                    }
+                });
+            });
+
+            $('.delete-cart-btn').on('click', function (e) {
+                e.preventDefault();
+
+                var productId = $(this).data('pid');
+                var url = '/Cart/RemoveFromCart';
+                var data = { pid: productId };
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data,
+                    success: function (response) {
+                        $('#row_' + productId).remove();
+                        $(qtyIcon).html(response.cartQuantity);
+                        $('#cart-icon-quantity').html(response.cartQuantity);
+                        $('#cart-subtotal').html('$' + response.cartSubTotal);
+                        $('#cart-shipping').html('$' + (response.cartSubTotal * 5 / 100));
+                        $('#cart-total').html('$' + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                    },
+                    error: function () {
+                        console.log("Error occurred during AJAX request.");
+                    }
+                });
+            });
+        });
+
+    </script>
+
+}
