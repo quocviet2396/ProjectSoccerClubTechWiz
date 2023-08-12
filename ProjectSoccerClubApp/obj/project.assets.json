@@ -11279,19 +11279,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\T490\\.nuget\\packages\\": {}
+    "C:\\Users\\Hoc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+      "projectUniqueName": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
       "projectName": "ProjectSoccerClubApp",
-      "projectPath": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
-      "packagesPath": "C:\\Users\\T490\\.nuget\\packages\\",
-      "outputPath": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\obj\\",
+      "projectPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+      "packagesPath": "C:\\Users\\Hoc\\.nuget\\packages\\",
+      "outputPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\T490\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11299,6 +11304,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11361,7 +11368,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
