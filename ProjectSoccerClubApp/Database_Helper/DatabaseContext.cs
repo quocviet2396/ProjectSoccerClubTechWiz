@@ -15,16 +15,16 @@ namespace ProjectSoccerClubApp.Database_Helper
         public DbSet<Team> Team { get; set; }
         public DbSet<Player> Player { get; set; }
         public DbSet<Match> Match { get; set; }
-        public DbSet<Carts> Cart { get; set; }
         public DbSet<Categories> Category { get; set; }
         public DbSet<Products> Product { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            string str = "server=DESKTOP-T6R536I\\SQLEXPRESS01; database=MiamiDb; uid=sa; pwd=123; TrustServerCertificate=true;";
+            string str = "server=.; database=MiamiDb; uid=sa; pwd=123456; TrustServerCertificate=true;";
             optionsBuilder.UseSqlServer(str);
         }
 
@@ -34,10 +34,10 @@ namespace ProjectSoccerClubApp.Database_Helper
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Match>()
-                .HasOne(m => m.HomeTeam)
-                .WithMany()
-                .HasForeignKey(m => m.HomeTeamId)
-                .OnDelete(DeleteBehavior.NoAction);
+                 .HasOne(m => m.HomeTeam)
+                 .WithMany()
+                 .HasForeignKey(m => m.HomeTeamId)
+                 .OnDelete(DeleteBehavior.NoAction);
 
 
             modelBuilder.Entity<Match>()
@@ -46,17 +46,10 @@ namespace ProjectSoccerClubApp.Database_Helper
                 .HasForeignKey(m => m.AwayTeamId)
                 .OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<Carts>()
-                .HasOne(c => c.Product)
-                .WithMany(p => p.Carts)
-                .HasForeignKey(c => c.ProductId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-
 
             modelBuilder.Entity<Products>()
-               .HasMany(p => p.Orders)
-               .WithOne(o => o.Product)
+               .HasMany(p => p.OrderDetails)
+               .WithOne(details => details.Product)
                .HasForeignKey(o => o.ProductId)
                .OnDelete(DeleteBehavior.Restrict);
 
@@ -66,19 +59,11 @@ namespace ProjectSoccerClubApp.Database_Helper
                 .WithMany(u => u.Orders)
                 .HasForeignKey(o => o.UserId);
 
+            modelBuilder.Entity<OrderDetails>()
+                .HasOne(details => details.Order)
+                .WithMany(o => o.OrderDetails)
+                .HasForeignKey(details => details.OrderId);
 
-            modelBuilder.Entity<Categories>()
-              .HasMany(c => c.Orders)
-              .WithOne(order => order.Category)
-              .HasForeignKey(order => order.CategoryId)
-              .OnDelete(DeleteBehavior.NoAction);
-
-
-
-            modelBuilder.Entity<Categories>()
-                .HasMany(c => c.Carts)
-                .WithOne(cart => cart.Category)
-                .HasForeignKey(cart => cart.CategoryId);
         }
 
     }

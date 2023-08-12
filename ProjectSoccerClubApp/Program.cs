@@ -18,6 +18,7 @@ builder.Services.AddScoped<IPlayerServices, PlayerServicesImp>();
 builder.Services.AddScoped<ICreateAcountService, CreateAccountServiceImp>();
 builder.Services.AddScoped<ICategoryService, CategoryServiceImp>();
 builder.Services.AddScoped<IProductService, ProductServiceImp>();
+builder.Services.AddScoped<IOrderService, OrderServiceImp>();
 
 var app = builder.Build();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj": {}
+    "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj": {}
   },
   "projects": {
-    "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj": {
+    "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+        "projectUniqueName": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
         "projectName": "ProjectSoccerClubApp",
-        "projectPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+        "projectPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
         "packagesPath": "C:\\Users\\Hoc\\.nuget\\packages\\",
-        "outputPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\obj\\",
+        "outputPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectSoccerClubApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -18,13 +18,6 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title fw-semibold mb-4">Create Team</h5>
-                    <!-- Hiển thị thông báo lỗi nếu có -->
-                    @if (!string.IsNullOrEmpty(ViewBag.errormsg))
-                    {
-                        <div class="alert alert-danger">
-                            @ViewBag.errormsg
-                        </div>
-                    }
                     <div class="card">
                         <div class="card-body">
                             <form asp-action="Create" asp-controller="Team" method="post" enctype="multipart/form-data">
@@ -60,7 +53,13 @@
                                     <span asp-validation-for="Logo" class="text-danger form-text"></span>
                                 </div>
 
-                            
+                                <!-- Hiển thị thông báo lỗi nếu có -->
+                                @if (!string.IsNullOrEmpty(ViewBag.errormsg))
+                                {
+                                    <div class="alert alert-danger">
+                                        @ViewBag.errormsg
+                                    </div>
+                                }
                                 <button type="submit" class="btn btn-primary">Submit</button>
                             </form>
                         </div>

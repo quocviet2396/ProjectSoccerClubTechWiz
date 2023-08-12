@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectModels\\ProjectModels.csproj",
+      "projectUniqueName": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectModels\\ProjectModels.csproj",
       "projectName": "ProjectModels",
-      "projectPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectModels\\ProjectModels.csproj",
+      "projectPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectModels\\ProjectModels.csproj",
       "packagesPath": "C:\\Users\\Hoc\\.nuget\\packages\\",
-      "outputPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechWiz\\ProjectModels\\obj\\",
+      "outputPath": "D:\\Bai Hoc\\Techwiz\\ProjectSoccerClubTechwiz\\ProjectModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,4 @@
-jQuery(document).ready(function ($) {
+﻿jQuery(document).ready(function ($) {
 	const urlPath = window.location.pathname;
 	$(".site-navigation ul.site-menu li").each(function (index, element) {
 		if (!urlPath.includes($(element).data("name"))) {

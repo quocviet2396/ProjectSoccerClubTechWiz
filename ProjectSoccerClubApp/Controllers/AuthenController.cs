@@ -10,10 +10,12 @@ namespace ProjectSoccerClubApp.Controllers
     {
         private readonly DatabaseContext _context;
         private IAuthenService aService;
+        private IHttpContextAccessor _httpContext;
 
-        public AuthenController(DatabaseContext context, IAuthenService aService)
+        public AuthenController(DatabaseContext context, IAuthenService aService, IHttpContextAccessor httpContext)
         {
             _context = context;
+            _httpContext = httpContext;
             this.aService = aService;
         }
 
@@ -24,9 +26,13 @@ namespace ProjectSoccerClubApp.Controllers
             {
                 return RedirectToAction("Index", "Backend");
             }
-            
+
             if (aService.IsUserLoggedIn() && !aService.IsUserAdmin())
             {
+                if (_httpContext.HttpContext.Session.GetString("returnCheckout") == "true")
+                {
+                    return RedirectToAction("Checkout", "Cart");
+                }
                 return RedirectToAction("Index", "Frontend");
             }
             return View();

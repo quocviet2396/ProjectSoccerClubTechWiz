@@ -1,1 +1,1 @@
-# ProjectSoccerClubTechWiz
+# ProjectSoccerClubTechwiz

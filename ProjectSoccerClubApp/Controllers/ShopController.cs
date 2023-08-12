@@ -22,6 +22,7 @@ namespace ProjectSoccerClubApp.Controllers
         public async Task<IActionResult> Index()
         {
             var model = await _service.GetProductWithCategory();
+            model = model.Where(p => p.status == true).ToList();
             return View(model);
         }
     }

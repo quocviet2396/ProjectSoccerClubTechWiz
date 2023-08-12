@@ -9,185 +9,205 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectSoccerClubApp
 build_property.RootNamespace = ProjectSoccerClubApp
-build_property.ProjectDir = D:\Bai Hoc\Techwiz\ProjectSoccerClubTechWiz\ProjectSoccerClubApp\
+build_property.ProjectDir = D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Bai Hoc\Techwiz\ProjectSoccerClubTechWiz\ProjectSoccerClubApp
+build_property.MSBuildProjectDirectory = D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Authen/Login.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Authen/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVuXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Authen/Register.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Authen/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVuXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Backend/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Backend/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja2VuZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Backend/_Aside.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Backend/_Aside.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja2VuZFxfQXNpZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Backend/_Header.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Backend/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja2VuZFxfSGVhZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Cart/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Category/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Cart/Thankyou.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxUaGFua3lvdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Category/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/CreateAccount/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/CreateAccount/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/CreateAccount/Details.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/CreateAccount/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/CreateAccount/EditByAdmin.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/CreateAccount/EditByAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxFZGl0QnlBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/CreateAccount/EditByUser.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/CreateAccount/EditByUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxFZGl0QnlVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/CreateAccount/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/CreateAccount/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/About.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Contact.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Match.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Match.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcTWF0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/News.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcTmV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Player.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Player.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcUGxheWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Privacy.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Frontend/Team.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Frontend/Team.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJvbnRlbmRcVGVhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Home/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Home/Privacy.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Match/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Match/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Match/Edit.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Match/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Match/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Match/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0Y2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Player/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Player/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Player/Details.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Player/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Player/Edit.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Player/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Player/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Player/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Product/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Product/Edit.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Product/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Product/_DeleteForm.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Product/_DeleteForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfRGVsZXRlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Shared/Error.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Shared/_BackendLayout.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shared/_BackendLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYWNrZW5kTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Shop/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Team/Create.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shop/_ShopItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxfU2hvcEl0ZW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Team/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Team/Edit.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Team/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Team/Index.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/_ViewImports.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/_ViewStart.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechWiz/ProjectSoccerClubApp/Views/Shared/_Layout.cshtml]
+[D:/Bai Hoc/Techwiz/ProjectSoccerClubTechwiz/ProjectSoccerClubApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rpvs9muyf1

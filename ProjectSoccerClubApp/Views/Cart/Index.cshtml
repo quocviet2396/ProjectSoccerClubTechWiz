@@ -20,7 +20,12 @@
                         <th>Price</th>
                         <th>Quantity</th>
                         <th>Total</th>
-                        <th>Remove</th>
+                        <th>Remove 
+                            @if (Context.Session.GetString("MiamiShopCart") != null)
+                            {
+                                <button class="btn btn-sm btn-primary delete-all-cart-btn"><i class="fa fa-times"></i></button>
+                            }
+                        </th>
                     </tr>
                 </thead>
                 <tbody class="align-middle">
@@ -30,7 +35,7 @@
                         {
                             <tr id="row_@item.Product.Id">
                                 <td class="align-middle"><img src="img/product-1.jpg" alt="" style="width: 50px;">@item.Product.Name</td>
-                                <td class="align-middle">$@item.Product.OriginalPrice</td>
+                                <td class="align-middle">@(Int32.Parse(item.Product.SellingPrice).ToString("C"))</td>
                                 <td class="align-middle">
                                     <div class="input-group quantity mx-auto" style="width: 100px;">
                                         <form asp-action="ChangeQuantity" asp-controller="Cart">
@@ -46,7 +51,7 @@
                                     </div>
                                 </td>
                                 <td class="align-middle" id="subtotal_@item.Product.Id">
-                                    $@(Int32.Parse(item.Product.OriginalPrice) * item.Qty)
+                                    @((Int32.Parse(item.Product.SellingPrice) * item.Qty).ToString("C"))
                                 </td>
                                 <td class="align-middle"><button class="btn btn-sm btn-primary delete-cart-btn" data-pid="@item.Product.Id"><i class="fa fa-times"></i></button></td>
                             </tr>
@@ -80,19 +85,19 @@
                 <div class="card-body">
                     <div class="d-flex justify-content-between mb-3 pt-1">
                         <h6 class="font-weight-medium">Subtotal</h6>
-                        <h6 id="cart-subtotal" class="font-weight-medium">$@cartSubTotal</h6>
+                        <h6 id="cart-subtotal" class="font-weight-medium">@cartSubTotal.ToString("C")</h6>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <h6 class="font-weight-medium">Shipping</h6>
-                        <h6 id="cart-shipping" class="font-weight-medium">$@shipping</h6>
+                        <h6 class="font-weight-medium">Shipping(5%)</h6>
+                        <h6 id="cart-shipping" class="font-weight-medium">@shipping.ToString("C")</h6>
                     </div>
                 </div>
                 <div class="card-footer border-secondary bg-transparent">
                     <div class="d-flex justify-content-between mt-2">
                         <h5 class="font-weight-bold">Total</h5>
-                        <h5 id="cart-total" class="font-weight-bold">$@(cartSubTotal + shipping)</h5>
+                        <h5 id="cart-total" class="font-weight-bold">@((cartSubTotal + shipping).ToString("C"))</h5>
                     </div>
-                    <button class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</button>
+                    <a asp-action="Checkout" asp-controller="Cart" class="btn btn-block btn-primary my-3 py-3">Proceed To Checkout</a>
                 </div>
             </div>
         </div>
@@ -133,11 +138,24 @@
                     url: "/Cart/ChangeQuantity",
                     data: { pid: pid, qty: newQty },
                     success: function (response) {
-                        $("#subtotal_" + pid).html("$" + response.cartItemSubTotal);
-                        $(qtyIcon).html(response.cartQuantity);
-                        $("#cart-subtotal").html("$" + response.cartSubTotal);
-                        $("#cart-shipping").html("$" + (response.cartSubTotal * 5 / 100));
-                        $("#cart-total").html("$" + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                        if(response.error){
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: response.error,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        } else {
+                            $("#subtotal_" + pid).html(response.cartItemSubTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $(qtyIcon).html(response.cartQuantity);
+                            $("#cart-subtotal").html(response.cartSubTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-shipping").html((response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-total").html((response.cartSubTotal + response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                        } 
                     },
                     error: function () {
                         console.log("Error occurred during AJAX request.");
@@ -145,28 +163,74 @@
                 });
             });
 
-            $("form").submit(function (event) {
-                event.preventDefault();
-
-                
-                var pid = $(this).find("input[name='pid']").val();
-                var qty = $(this).find("input[name='qty']").val();
+            $("input[name='qty']").change(function () {
+                var form = $(this).closest("form");
+                var qtyInput = form.find("input[name='qty']");
+                var pid = form.find("input[name='pid']").val();
+                var newQty = parseInt(qtyInput.val());
 
                 $.ajax({
                     type: "POST",
                     url: "/Cart/ChangeQuantity",
-                    data: { pid: pid, qty: qty },
+                    data: { pid: pid, qty: newQty },
                     success: function (response) {
-                        // Cập nhật partial view _ViewCartSubtotal
-                        $("#subtotal_" + pid).html("$" + response.cartItemSubTotal);
-                        $(qtyIcon).html(response.cartQuantity);
-                        $("#cart-subtotal").html("$" + response.cartSubTotal);
-                        $("#cart-shipping").html("$" + (response.cartSubTotal * 5 / 100));
-                        $("#cart-total").html("$" + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                        if (response.error) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: response.error,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        } else {
+                            $("#subtotal_" + pid).html(response.cartItemSubTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $(qtyIcon).html(response.cartQuantity);
+                            $("#cart-subtotal").html(response.cartSubTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-shipping").html((response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-total").html((response.cartSubTotal + response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                        }
                     },
                     error: function () {
                         console.log("Error occurred during AJAX request.");
                     }
+                });
+            });
+
+           
+
+            $(document).ready(function () {
+                $(".delete-all-cart-btn").click(function (event) {
+                    event.preventDefault();
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/Cart/ClearCart",
+                        success: function (response) {
+                            if (response.error) {
+                                // Xử lý lỗi nếu cần
+                            } else {
+                                const tbody = $("tbody.align-middle");
+                                tbody.html('<tr><td class="text-center" colspan="5">Cart is empty.</td></tr>');
+                                $(qtyIcon).html(0);
+                                $("#cart-subtotal").html("$0.00");
+                                $("#cart-shipping").html("$0.00");
+                                $("#cart-total").html("$0.00");
+
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Cart is empty!',
+                                    text: 'Your cart has been successfully cleared.',
+                                    confirmButtonText: 'OK',
+                                });
+                            }
+                        },
+                        error: function () {
+                            console.log("Error occurred during AJAX request.");
+                        }
+                    });
                 });
             });
 
@@ -182,12 +246,21 @@
                     url: url,
                     data: data,
                     success: function (response) {
-                        $('#row_' + productId).remove();
-                        $(qtyIcon).html(response.cartQuantity);
-                        $('#cart-icon-quantity').html(response.cartQuantity);
-                        $('#cart-subtotal').html('$' + response.cartSubTotal);
-                        $('#cart-shipping').html('$' + (response.cartSubTotal * 5 / 100));
-                        $('#cart-total').html('$' + (response.cartSubTotal + response.cartSubTotal * 5 / 100));
+                        if (response.error) {
+                            // Xử lý lỗi nếu cần
+                        } else {
+                            $('#row_' + productId).remove();
+                            $(qtyIcon).html(response.cartQuantity);
+                            $("#cart-subtotal").html(response.cartSubTotal.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-shipping").html((response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            $("#cart-total").html((response.cartSubTotal + response.cartSubTotal * 5 / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Product is removed!',
+                                text: 'Your cart item has been successfully removed.',
+                                confirmButtonText: 'OK',
+                            });
+                        }
                     },
                     error: function () {
                         console.log("Error occurred during AJAX request.");

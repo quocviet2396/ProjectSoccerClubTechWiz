@@ -22,3 +22,15 @@ C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\refint\ProjectModels.dll
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.pdb
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ref\ProjectModels.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\bin\Debug\net7.0\ProjectModels.deps.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\bin\Debug\net7.0\ProjectModels.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\bin\Debug\net7.0\ProjectModels.pdb
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.csproj.AssemblyReference.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.AssemblyInfoInputs.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.AssemblyInfo.cs
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.csproj.CoreCompileInputs.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\refint\ProjectModels.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ProjectModels.pdb
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectModels\obj\Debug\net7.0\ref\ProjectModels.dll

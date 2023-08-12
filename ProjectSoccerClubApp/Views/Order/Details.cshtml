@@ -1,0 +1,95 @@
+﻿@model ProjectModels.Order;
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "_BackendLayout";
+    int i = 1;
+}
+
+
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed">
+
+    @await Html.PartialAsync("~/Views/Backend/_Aside.cshtml")
+
+    <div class="body-wrapper">
+
+        @await Html.PartialAsync("~/Views/Backend/_Header.cshtml")
+
+        <!-- Change this content if you need to modify -->
+        <div class="col-lg-12 d-flex align-items-stretch">
+
+            <div class="card w-100">
+                <div class="card-body p-4">
+                    <h5 class="card-title fw-semibold mb-4">Team</h5>
+                    <div>
+
+                        @if (!string.IsNullOrEmpty(TempData["msg"] as string))
+                        {
+                            <div class="alert alert-success">
+                                @TempData["msg"]
+                            </div>
+                        }
+
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-nowrap mb-0 align-middle">
+                            <thead class="text-dark fs-4">
+                                <tr class="text-center">
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">#</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">Name</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">Image</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">Price</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">Quantity</h4>
+                                    </th>
+                                    <th class="border-bottom-0">
+                                        <h4 class="fw-semibold mb-0">SubTotal</h4>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderDetails)
+                                {
+                                    <tr class="text-center">
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1"> @i </h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@item.Product.Name</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">
+                                                <img src="@Url.Content("~/images/ProductPhoto/"+item.Product.Photo)" width="50" height="50">
+                                            </h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@(Int32.Parse(item.Product.SellingPrice).ToString("C"))</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@item.Quantity</h6>
+                                        </td>
+                                        <td class="border-bottom-0">
+                                            <h6 class="fw-semibold mb-1">@((Int32.Parse(item.Product.SellingPrice) * item.Quantity).ToString("C"))</h6>
+                                        </td>
+                                    </tr>
+                                    i++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End change -->
+
+    </div>
+</div>
+

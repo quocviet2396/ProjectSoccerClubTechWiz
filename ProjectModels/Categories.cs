@@ -15,10 +15,7 @@ namespace ProjectModels
         public string? Name { get; set; }
         public bool status { get; set; }
         public ICollection<Products> Products { get; set; }
-        public ICollection<Carts> Carts { get; set; }
-        public ICollection<Order> Orders { get; set; }
         
-
     }
 }
 

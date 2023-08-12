@@ -508,513 +508,258 @@ C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.pdb
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.genruntimeconfig.cache
 C:\Users\T490\Documents\GitHub\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ref\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.Development.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.staticwebassets.runtime.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.exe
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.deps.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.runtimeconfig.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.pdb
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Core.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Identity.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Humanizer.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.Framework.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Mono.TextTemplating.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Newtonsoft.Json.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Common.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Configuration.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Frameworks.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.LibraryModel.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Packaging.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.ProjectModel.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Protocol.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Versioning.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.CodeDom.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.AttributedModel.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Convention.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Hosting.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Runtime.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.TypedParts.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Drawing.Common.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Memory.Data.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Runtime.Caching.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Permissions.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Windows.Extensions.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\af\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ar\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\az\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\bg\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\da\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\el\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fa\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\he\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hr\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hu\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hy\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\id\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\is\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ku\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\lv\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\mt\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nb\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nl\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ro\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sk\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sl\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sr\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sv\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uk\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\vi\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.pdb
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.AssemblyReference.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.GeneratedMSBuildEditorConfig.editorconfig
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfoInputs.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfo.cs
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CoreCompileInputs.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.MvcApplicationPartsAssemblyInfo.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cs
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.ProjectSoccerClubApp.Microsoft.AspNetCore.StaticWebAssets.props
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectSoccerClubApp.props
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectSoccerClubApp.props
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectSoccerClubApp.props
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.pack.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.build.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.development.json
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\bundle\ProjectSoccerClubApp.styles.css
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\projectbundle\ProjectSoccerClubApp.bundle.scp.css
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CopyComplete
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\refint\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.pdb
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.genruntimeconfig.cache
-F:\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ref\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.Development.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.staticwebassets.runtime.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.exe
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.deps.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.runtimeconfig.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.pdb
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Core.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Identity.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Humanizer.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.Framework.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Mono.TextTemplating.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\Newtonsoft.Json.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Common.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Configuration.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Frameworks.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.LibraryModel.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Packaging.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.ProjectModel.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Protocol.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Versioning.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.CodeDom.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.AttributedModel.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Convention.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Hosting.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Runtime.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.TypedParts.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Drawing.Common.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Memory.Data.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Runtime.Caching.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Permissions.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\System.Windows.Extensions.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\af\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ar\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\az\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\bg\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\da\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\el\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fa\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\he\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\hr\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\hu\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\hy\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\id\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\is\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ku\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\lv\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\mt\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\nb\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\nl\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ro\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\sk\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\sl\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\sr\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\sv\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\uk\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\vi\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.pdb
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.AssemblyReference.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.GeneratedMSBuildEditorConfig.editorconfig
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfoInputs.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfo.cs
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CoreCompileInputs.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.MvcApplicationPartsAssemblyInfo.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cs
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.ProjectSoccerClubApp.Microsoft.AspNetCore.StaticWebAssets.props
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectSoccerClubApp.props
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectSoccerClubApp.props
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectSoccerClubApp.props
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.pack.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.build.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.development.json
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\bundle\ProjectSoccerClubApp.styles.css
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\projectbundle\ProjectSoccerClubApp.bundle.scp.css
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CopyComplete
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\refint\ProjectSoccerClubApp.dll
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.pdb
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.genruntimeconfig.cache
-F:\ProjectSoccerClub\ProjectSoccerClubApp\obj\Debug\net7.0\ref\ProjectSoccerClubApp.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.Development.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\appsettings.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.staticwebassets.runtime.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.exe
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.deps.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.runtimeconfig.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectSoccerClubApp.pdb
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Core.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Azure.Identity.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Humanizer.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Common.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.CodeDom.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\af\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ar\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\az\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\bg\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\bn-BD\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\da\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\el\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fa\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fi-FI\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr-BE\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\he\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hr\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hu\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\hy\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\id\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\is\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko-KR\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ku\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\lv\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ms-MY\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\mt\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nb\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nb-NO\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\nl\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ro\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sk\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sl\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sr\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sr-Latn\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\sv\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\th-TH\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uk\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\vi\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\bin\Debug\net7.0\ProjectModels.pdb
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.AssemblyReference.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfoInputs.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.AssemblyInfo.cs
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CoreCompileInputs.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.RazorAssemblyInfo.cs
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.ProjectSoccerClubApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.build.ProjectSoccerClubApp.props
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ProjectSoccerClubApp.props
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ProjectSoccerClubApp.props
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.build.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\staticwebassets.development.json
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\bundle\ProjectSoccerClubApp.styles.css
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\scopedcss\projectbundle\ProjectSoccerClubApp.bundle.scp.css
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.csproj.CopyComplete
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\refint\ProjectSoccerClubApp.dll
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.pdb
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ProjectSoccerClubApp.genruntimeconfig.cache
+D:\Bai Hoc\Techwiz\ProjectSoccerClubTechwiz\ProjectSoccerClubApp\obj\Debug\net7.0\ref\ProjectSoccerClubApp.dll
