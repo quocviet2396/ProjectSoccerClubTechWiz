@@ -153,45 +153,6 @@
                         <h3 class="footer-heading mb-4">About Sportz</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
                     </div>
-
-                    <div class="mb-5">
-                        <h3 class="footer-heading mb-4">Recent Blog</h3>
-                        <div class="block-25">
-                            <ul class="list-unstyled">
-                                <li class="mb-3">
-                                    <a href="#" class="d-flex">
-                                        <figure class="image mr-4">
-                                            <img src="@Url.Content("~/images/img_1.jpg")" alt="" class="img-fluid">
-                                        </figure>
-                                        <div class="text">
-                                            <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-3">
-                                    <a href="#" class="d-flex">
-                                        <figure class="image mr-4">
-                                            <img src="@Url.Content("~/images/img_1.jpg")" alt="" class="img-fluid">
-                                        </figure>
-                                        <div class="text">
-                                            <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="mb-3">
-                                    <a href="#" class="d-flex">
-                                        <figure class="image mr-4">
-                                            <img src="@Url.Content("~/images/img_1.jpg")" alt="" class="img-fluid">
-                                        </figure>
-                                        <div class="text">
-                                            <h3 class="heading font-weight-light">Lorem ipsum dolor sit amet consectetur elit</h3>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
                 </div>
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <div class="row mb-5">
@@ -200,17 +161,17 @@
                         </div>
                         <div class="col-md-6 col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Matches</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Team</a></li>
+                                <li><a asp-action="Index" asp-controller="Frontend">Home</a>></li>
+                                <li data-name="Match"><a asp-action="Match" asp-controller="Frontend">Matches</a></li>
+                                <li data-name="Team"><a asp-action="Team" asp-controller="Frontend">Team</a></li>
+                                <li data-name="Player"><a asp-action="Player" asp-controller="Frontend">Player</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li data-name="About"><a asp-action="About" asp-controller="Frontend">About</a></li>
+                                <li data-name="Contact"><a asp-action="Contact" asp-controller="Frontend">Contact</a></li>
+                                <li data-name="Shop"><a asp-action="Index" asp-controller="Shop">Shop</a></li>
                                 <li><a href="#">Membership</a></li>
                             </ul>
                         </div>
