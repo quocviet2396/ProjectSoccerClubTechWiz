@@ -16,6 +16,10 @@ namespace ProjectModels
         public int Id { get; set; }
 
         [Required]
+        public int CompetitionId { get; set; }
+      
+
+        [Required]
         public int HomeTeamId { get; set; } // Khóa ngoại đến đội nhà
         [Required]
         public int AwayTeamId { get; set; } // Khóa ngoại đến đội khách
@@ -29,6 +33,6 @@ namespace ProjectModels
 
         public Team? HomeTeam { get; set; } // Quan hệ với đội nhà
         public Team? AwayTeam { get; set; } // Quan hệ với đội khách
-
+        public Competition? Competition { get; set; }
     }
 }
