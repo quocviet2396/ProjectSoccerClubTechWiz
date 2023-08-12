@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f/Re9A2vhK+YOtwNAAn5ymuCfIX6TVx3dontAPOWRpQhSpNe/Ci+Sx18/d0MqX2KInedYiSKsKt0/bqluQhxzg==",
+  "dgSpecHash": "YAchmwRfwlim+hLqBewuz2KhV+0JAXRnmA33objyH1GuMRvkt1RBE6DLu6+uudHTYtuD+GiyxAWAlLOxuREv4w==",
   "success": true,
-  "projectFilePath": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+  "projectFilePath": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T490\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\T490\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -11284,11 +11284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+      "projectUniqueName": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
       "projectName": "ProjectSoccerClubApp",
-      "projectPath": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
+      "projectPath": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\ProjectSoccerClubApp.csproj",
       "packagesPath": "C:\\Users\\T490\\.nuget\\packages\\",
-      "outputPath": "F:\\ProjectSoccerClub\\ProjectSoccerClubApp\\obj\\",
+      "outputPath": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\T490\\AppData\\Roaming\\NuGet\\NuGet.Config",
