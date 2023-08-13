@@ -97,6 +97,34 @@ namespace ProjectSoccerClubApp.Migrations
                     b.ToTable("Match");
                 });
 
+            modelBuilder.Entity("ProjectModels.News", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("Author")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Content")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Logo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PublishDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("News");
+                });
+
             modelBuilder.Entity("ProjectModels.Order", b =>
                 {
                     b.Property<int>("Id")

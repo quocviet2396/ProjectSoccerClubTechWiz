@@ -22,6 +22,7 @@ namespace ProjectSoccerClubApp.Database_Helper
 
         public DbSet<Competition> Competition { get; set; }
 
+        public DbSet<News> News { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
