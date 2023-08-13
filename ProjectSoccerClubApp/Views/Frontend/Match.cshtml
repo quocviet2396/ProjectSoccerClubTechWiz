@@ -1,4 +1,5 @@
-﻿@model IEnumerable<ProjectModels.Match>
+﻿@using Newtonsoft.Json
+@model IEnumerable<ProjectModels.Match>
 
 @{
     ViewBag.Title = "Match";
@@ -22,9 +23,6 @@
                  .ThenByDescending(m => m.Result != null ? m.MatchTime : DateTime.MaxValue)
                  .Take(1)
                  .ToList();
-
-
-
         }
         @foreach (var item in sortedMatches)
         {
@@ -80,68 +78,107 @@
                 </div>
             </div>
         }
-    <div class="site-section site-blocks-vs">
-        <div class="container">
-            @{
-                var upcomingMatches = Model.Where(m => m.MatchTime > DateTime.UtcNow).OrderBy(m => m.MatchTime).ToList();
-                if (upcomingMatches.Any())
-                {
-                    var nextMatch = upcomingMatches.First();
-                    var countdownDate = nextMatch.MatchTime.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
+        <div class="site-section site-blocks-vs">
+            <div class="container">
+                @{
+                    var upcomingMatches = Model.Where(m => m.MatchTime > DateTime.UtcNow).OrderBy(m => m.MatchTime).ToList();
+                    if (upcomingMatches.Any())
+                    {
 
-                    <div class="border mb-3 rounded d-block d-lg-flex align-items-center p-3 next-match">
-                        <div class="mr-auto order-md-1 w-60 text-center text-lg-left mb-3 mb-lg-0">
-                            Next match
-                            (@nextMatch.Competition.Name)
-                            <div id="date-countdown"></div>
-                        </div>
+                        var nextMatch = upcomingMatches.First();
+                        var countdownDate = nextMatch.MatchTime.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
 
-                        <div class="ml-auto pr-4 order-md-2">
-                            <div class="h5 text-black text-uppercase text-center text-lg-left">
-                                <div class="d-block d-md-inline-block mb-3 mb-lg-0">
-                                    <img src="@Url.Content("~/images/Logo/" + @nextMatch.HomeTeam.Logo)" alt="Image" class="mr-3 image">
-                                    <span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.HomeTeam.TeamName</span>
-                                </div>
-                                <span class="text-muted mx-3 text-normal mb-3 mb-lg-0 d-block d-md-inline ">vs</span>
-                                <div class="d-block d-md-inline-block">
-                                    <img src="@Url.Content("~/images/Logo/" + @nextMatch.AwayTeam.Logo)" alt="Image" class="mr-3 image">
-                                    <span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.AwayTeam.TeamName</span>
+                        <div class="border mb-3 rounded d-block d-lg-flex align-items-center p-3 next-match">
+                            <div class="mr-auto order-md-1 w-60 text-center text-lg-left mb-3 mb-lg-0">
+                                Next match
+                                (<span id="competition-name">(@nextMatch.Competition.Name)</span>)
+                                <div id="date-countdown"></div>
+                            </div>
+
+                            <div class="ml-auto pr-4 order-md-2">
+                                <div class="h5 text-black text-uppercase text-center text-lg-left">
+                                    <div class="d-block d-md-inline-block mb-3 mb-lg-0">
+                                        <img src="@Url.Content("~/images/Logo/" + @nextMatch.HomeTeam.Logo)" id="home-team-logo" alt="Image" class="mr-3 image">
+                                        <span id="home-team-name" class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.HomeTeam.TeamName</span>
+                                    </div>
+                                    <span class="text-muted mx-3 text-normal mb-3 mb-lg-0 d-block d-md-inline ">vs</span>
+                                    <div class="d-block d-md-inline-block">
+                                        <img id="away-team-logo" src="@Url.Content("~/images/Logo/" + @nextMatch.AwayTeam.Logo)" alt="Image" class="mr-3 image">
+                                        <span id="away-team-name" class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.AwayTeam.TeamName</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <script>
-                    var countdownDate = new Date('@countdownDate').getTime();
-                    var x = setInterval(function () {
-                        var now = new Date().getTime();
-                        var distance = countdownDate - now;
-                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
-                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        <script>
+    function startCountdown(nextMatch) {
+        var x;
 
-                        var countdownHtml =
-                            '<span class="countdown-block"><span class="label">' + weeks + '</span> weeks </span>' +
-                            '<span class="countdown-block"><span class="label">' + days + '</span> days </span>' +
-                            '<span class="countdown-block"><span class="label">' + hours + '</span> hr </span>' +
-                            '<span class="countdown-block"><span class="label">' + minutes + '</span> min </span>' +
-                            '<span class="countdown-block"><span class="label">' + seconds + '</span> sec</span>';
+        var countdownDate = new Date(nextMatch.MatchTime).getTime();
 
-                        document.getElementById("date-countdown").innerHTML = countdownHtml;
+        function updateCountdown() {
+            var now = new Date().getTime();
+            var distance = countdownDate - now;
 
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("date-countdown").innerHTML = "Match has started!";
-                        }
-                    }, 1000);
-                    </script>
-                }
+            var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+            var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            var countdownHtml =
+                '<span class="countdown-block"><span class="label">' + weeks + '</span> weeks </span>' +
+                '<span class="countdown-block"><span class="label">' + days + '</span> days </span>' +
+                '<span class="countdown-block"><span class="label">' + hours + '</span> hr </span>' +
+                '<span class="countdown-block"><span class="label">' + minutes + '</span> min </span>' +
+                '<span class="countdown-block"><span class="label">' + seconds + '</span> sec</span>';
+
+            document.getElementById("date-countdown").innerHTML = countdownHtml;
+
+            if (distance <= 0) {
+                clearInterval(x);
+                document.getElementById("date-countdown").innerHTML = "Match has started!";
+                loadNextMatchAndStartCountdown();
             }
-           
+        }
+
+        updateCountdown();
+        x = setInterval(updateCountdown, 1000);
+    }
+
+    function loadNextMatchAndStartCountdown() {
+        var upcomingMatches = @Html.Raw(JsonConvert.SerializeObject(Model.Where(m => m.MatchTime > DateTime.UtcNow).OrderBy(m => m.MatchTime).ToList()));
+        var nextMatch = upcomingMatches.find(function(match) {
+            return new Date(match.MatchTime).getTime() > Date.now();
+        });
+
+       if (nextMatch) {
+    startCountdown(nextMatch);
+
+    document.getElementById("home-team-logo").src = '@Url.Content("~/images/Logo/")' + nextMatch.HomeTeam.Logo;
+    document.getElementById("home-team-name").innerText = nextMatch.HomeTeam.TeamName;
+    document.getElementById("away-team-logo").src = '@Url.Content("~/images/Logo/")' + nextMatch.AwayTeam.Logo;
+    document.getElementById("away-team-name").innerText = nextMatch.AwayTeam.TeamName;
+    document.getElementById("competition-name").innerText = nextMatch.Competition != null ? nextMatch.Competition.Name : "Unknown Competition";
+}
+
+    }
+
+    loadNextMatchAndStartCountdown();
+                        </script>
+
+
+
+
+
+
+
+                    }
+                }
+            </div>
         </div>
-    </div>
+
+
         <div class="container">
             <div class="col-md-4">
                 <label for="competitionSelect">Filter by Competition:</label>
@@ -156,7 +193,10 @@
 
             <div class="row align-items-center mb-5">
                 <div class="col-md-12">
-                    @foreach (var item in Model)
+                    @{
+                        var sortedMatches1 = Model.OrderBy(m => m.MatchTime).ToList();
+                    }
+                    @foreach (var item in sortedMatches1)
                     {
                         <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry" data-competition-id="@item.Competition.Id">
                             <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
@@ -216,10 +256,17 @@
 
                         </div>
                     }
+
+
                 </div>
             </div>
-        </div>
 
+        </div>
+        <div class="pagination-container text-center">
+            <button id="prev-page-btn" class="btn btn-primary">Previous</button>
+            <span id="page-num">Page 1</span>
+            <button id="next-page-btn" class="btn btn-primary">Next</button>
+        </div>
         <script>document.addEventListener("DOMContentLoaded", function () {
                 const selectElement = document.getElementById("competitionSelect");
                 const matchEntries = document.querySelectorAll(".match-entry");
@@ -231,12 +278,121 @@
                         const entryCompetitionId = entry.getAttribute("data-competition-id");
 
                         if (selectedCompetitionId === "" || entryCompetitionId === selectedCompetitionId) {
-                            entry.style.display = ""; // Set display to default (usually "block")
+                            entry.style.display = ""; 
                         } else {
                             entry.style.display = "none";
                         }
                     });
                 });
+            });</script>
+        <script>document.addEventListener("DOMContentLoaded", function () {
+            
+            var matches = document.querySelectorAll(".match-entry");
+            var pageSize = 3; 
+            var currentPage = 1;
+
+          
+            displayPage(currentPage);
+
+        
+            document.getElementById("prev-page-btn").addEventListener("click", function () {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displayPage(currentPage);
+                }
+            });
+
+         
+            document.getElementById("next-page-btn").addEventListener("click", function () {
+                if (currentPage < Math.ceil(matches.length / pageSize)) {
+                    currentPage++;
+                    displayPage(currentPage);
+                }
+            });
+
+           
+            function displayPage(page) {
+                var startIdx = (page - 1) * pageSize;
+                var endIdx = startIdx + pageSize;
+
+                for (var i = 0; i < matches.length; i++) {
+                    if (i >= startIdx && i < endIdx) {
+                        matches[i].style.display = "";
+                    } else {
+                        matches[i].style.display = "none";
+                    }
+                }
+
+                document.getElementById("page-num").innerText = "Page " + page;
+            }
+        });</script>
+        <script>document.addEventListener("DOMContentLoaded", function () {
+                const yearMonthDropdownItems = document.querySelectorAll(".dropdown-item");
+                const matchEntries = document.querySelectorAll(".match-entry");
+                const pageSize = 3; 
+                let currentPage = 1;
+
+                yearMonthDropdownItems.forEach(function (item) {
+                    item.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        const selectedYearMonth = this.getAttribute("data-year-month");
+                        // Lọc và hiển thị các trận đấu theo năm và tháng
+                        filterMatchesByYearMonth(selectedYearMonth);
+                    });
+                });
+
+                // Hiển thị trang đầu tiên và ẩn các trang khác
+                displayPage(currentPage);
+
+                // Xử lý sự kiện khi nhấn nút "Previous"
+                document.getElementById("prev-page-btn").addEventListener("click", function () {
+                    if (currentPage > 1) {
+                        currentPage--;
+                        displayPage(currentPage);
+                    }
+                });
+
+                // Xử lý sự kiện khi nhấn nút "Next"
+                document.getElementById("next-page-btn").addEventListener("click", function () {
+                    if (currentPage < Math.ceil(matchEntries.length / pageSize)) {
+                        currentPage++;
+                        displayPage(currentPage);
+                    }
+                });
+
+                // Hiển thị trang hiện tại và ẩn các trang khác
+                function displayPage(page) {
+                    const startIdx = (page - 1) * pageSize;
+                    const endIdx = startIdx + pageSize;
+
+                    for (let i = 0; i < matchEntries.length; i++) {
+                        if (i >= startIdx && i < endIdx) {
+                            matchEntries[i].style.display = "";
+                        } else {
+                            matchEntries[i].style.display = "none";
+                        }
+                    }
+
+                    document.getElementById("page-num").innerText = "Page " + page;
+                }
+
+                // Lọc và hiển thị các trận đấu theo năm và tháng
+                function filterMatchesByYearMonth(selectedYearMonth) {
+                    for (let i = 0; i < matchEntries.length; i++) {
+                        const matchDate = new Date(matchEntries[i].querySelector(".small").innerText);
+                        const matchYearMonth = matchDate.toISOString().slice(0, 7);
+
+                        if (selectedYearMonth === "" || matchYearMonth === selectedYearMonth) {
+                            matchEntries[i].style.display = "";
+                        } else {
+                            matchEntries[i].style.display = "none";
+                        }
+}
+
+                    // Hiển thị kết quả lọc
+                    currentPage = 1;
+                    displayPage(currentPage);
+                }
             });</script>
 
 
