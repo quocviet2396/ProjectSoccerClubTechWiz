@@ -10,5 +10,6 @@ namespace ProjectSoccerClubApp.Repositories
         Task<bool> removeMatch(int id);
         Task<bool> updateMatch(Match editMatch);
 
+        Task<List<Match>> GetMatchesByCompetition(int competitionId);
     }
 }

@@ -31,6 +31,19 @@ namespace ProjectSoccerClubApp.Services
         {
             return await db.Category.ToListAsync();
         }
+
+        public async Task<bool> deleteCategory(Categories editCategory)
+        {
+            db.Category.Remove(editCategory);
+            await db.SaveChangesAsync();
+            return true;
+        }
+
+
+        public async Task<Categories> GetCategoryById(int id)
+        {
+            return await db.Category.FirstOrDefaultAsync(c => c.Id == id);
+        }
     }
 }
 

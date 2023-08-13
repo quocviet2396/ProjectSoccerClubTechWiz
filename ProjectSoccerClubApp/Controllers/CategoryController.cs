@@ -16,12 +16,15 @@ namespace ProjectSoccerClubApp.Controllers
     {
         private ICategoryService _service;
         private IAuthenService aService;
+        private IProductService pService;
+        private DatabaseContext _dbContext;
 
-        public CategoryController(ICategoryService service, IAuthenService aService)
+        public CategoryController(ICategoryService service, IAuthenService aService, IProductService pService, DatabaseContext dbContext)
         {
             _service = service;
+            _dbContext = dbContext;
             this.aService = aService;
-
+            this.pService = pService;
 
         }
         public async Task<IActionResult> Index()
@@ -80,6 +83,28 @@ namespace ProjectSoccerClubApp.Controllers
             }
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var categeory = await _service.GetCategoryById(id);
+            var products = _dbContext.Product.Where(p => p.CategoryId == id).ToList();
+            if (categeory == null || products.Count > 0)
+            {
+                return Json(new
+                {
+                    error = "Can not delete this category."
+                });
+            }
+            bool isDeleted = await _service.deleteCategory(categeory);
+            if (isDeleted)
+            {
+                return Json(new
+                {
+                    success = "Deleted this competition."
+                });
+            }
+            return View();
+        }
     }
 }
 

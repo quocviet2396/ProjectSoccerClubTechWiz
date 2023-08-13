@@ -1,0 +1,6 @@
+﻿@model int
+
+<form asp-action="Delete" asp-controller="News" method="post">
+    <input type="hidden" name="id" value="@Model" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>

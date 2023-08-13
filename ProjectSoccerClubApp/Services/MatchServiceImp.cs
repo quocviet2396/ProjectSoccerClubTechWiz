@@ -54,5 +54,10 @@ namespace ProjectSoccerClubApp.Services
             }
             else { return false; }
         }
+
+        public async Task<List<Match>> GetMatchesByCompetition(int competitionId)
+        {
+            return await db.Match.Where(m => m.CompetitionId == competitionId).ToListAsync();
+        }
     }
 }

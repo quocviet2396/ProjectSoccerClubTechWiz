@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ProjectModels;
+using ProjectSoccerClubApp.Database_Helper;
 using ProjectSoccerClubApp.Repositories;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,15 +14,17 @@ namespace ProjectSoccerClubApp.Controllers
 {
     public class ProductController : Controller
     {
+        private DatabaseContext db;
         private IProductService _service;
         private IAuthenService aService;
         private ICategoryService bService;
 
-        public ProductController(IProductService service, IAuthenService aService, ICategoryService bService)
+        public ProductController(IProductService service, IAuthenService aService, ICategoryService bService, DatabaseContext db)
         {
             _service = service;
             this.aService = aService;
             this.bService = bService;
+            this.db = db;
 
 
         }
@@ -92,66 +95,65 @@ namespace ProjectSoccerClubApp.Controllers
         }
 
 
-//       [HttpPost]
-//public async Task<IActionResult> Edit(int id, Products editedProduct, IFormFile file)
-//{
-//    if (!aService.IsUserLoggedIn())
-//    {
-//        return RedirectToAction("Login", "Authen");
-//    }
+        //       [HttpPost]
+        //public async Task<IActionResult> Edit(int id, Products editedProduct, IFormFile file)
+        //{
+        //    if (!aService.IsUserLoggedIn())
+        //    {
+        //        return RedirectToAction("Login", "Authen");
+        //    }
 
-//    if (!aService.IsUserAdmin())
-//    {
-//        return RedirectToAction("Login", "Authen");
-//    }
+        //    if (!aService.IsUserAdmin())
+        //    {
+        //        return RedirectToAction("Login", "Authen");
+        //    }
 
-//    if (id != editedProduct.Id)
-//    {
-//        return NotFound();
-//    }
+        //    if (id != editedProduct.Id)
+        //    {
+        //        return NotFound();
+        //    }
 
-//    try
-//    {
-//        var existingProduct = await _service.GetProductById(id);
+        //    try
+        //    {
+        //        var existingProduct = await _service.GetProductById(id);
 
-//        if (file != null)
-//        {
-//            string path = Path.Combine("wwwroot/images/ProductPhoto", file.FileName);
-//            using (var stream = new FileStream(path, FileMode.Create))
-//            {
-//                await file.CopyToAsync(stream);
-//            }
-//            editedProduct.Photo = file.FileName;
-//        }
-//        else
-//        {
-//            // Keep the existing photo if no new photo is uploaded
-//            editedProduct.Photo = existingProduct.Photo;
-//        }
+        //        if (file != null)
+        //        {
+        //            string path = Path.Combine("wwwroot/images/ProductPhoto", file.FileName);
+        //            using (var stream = new FileStream(path, FileMode.Create))
+        //            {
+        //                await file.CopyToAsync(stream);
+        //            }
+        //            editedProduct.Photo = file.FileName;
+        //        }
+        //        else
+        //        {
+        //            // Keep the existing photo if no new photo is uploaded
+        //            editedProduct.Photo = existingProduct.Photo;
+        //        }
 
-//        // Update other properties of the product
-//        existingProduct.Name = editedProduct.Name;
-//        existingProduct.Slug = editedProduct.Slug;
-//        existingProduct.Descrption = editedProduct.Descrption;
-//        existingProduct.OriginalPrice = editedProduct.OriginalPrice;
-//        existingProduct.SellingPrice = editedProduct.SellingPrice;
-//        existingProduct.Trending = editedProduct.Trending;
-//        existingProduct.Featured = editedProduct.Featured;
-//        existingProduct.status = editedProduct.status;
-//        existingProduct.CategoryId = editedProduct.CategoryId;
+        //        // Update other properties of the product
+        //        existingProduct.Name = editedProduct.Name;
+        //        existingProduct.Slug = editedProduct.Slug;
+        //        existingProduct.Descrption = editedProduct.Descrption;
+        //        existingProduct.OriginalPrice = editedProduct.OriginalPrice;
+        //        existingProduct.SellingPrice = editedProduct.SellingPrice;
+        //        existingProduct.Trending = editedProduct.Trending;
+        //        existingProduct.Featured = editedProduct.Featured;
+        //        existingProduct.status = editedProduct.status;
+        //        existingProduct.CategoryId = editedProduct.CategoryId;
 
-//        await _service.EditProduct(existingProduct);
+        //        await _service.EditProduct(existingProduct);
 
-//        return RedirectToAction("Index", "Product");
-//    }
-//    catch (Exception ex)
-//    {
-//        ModelState.AddModelError(string.Empty, ex.Message);
-//        return View(editedProduct);
-//    }
-//}
+        //        return RedirectToAction("Index", "Product");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        ModelState.AddModelError(string.Empty, ex.Message);
+        //        return View(editedProduct);
+        //    }
+        //}
 
-        [HttpPost]
         public async Task<IActionResult> Delete(int id)
         {
             if (!aService.IsUserLoggedIn())
@@ -165,9 +167,13 @@ namespace ProjectSoccerClubApp.Controllers
             }
 
             var product = await _service.GetProductById(id);
-            if (product == null)
+            var orderDetails = db.OrderDetails.FirstOrDefault(d => d.ProductId == product.Id);
+            if (product == null || orderDetails != null)
             {
-                return NotFound();
+                return Json(new
+                {
+                    error = "Can not delete this product."
+                });
             }
 
             await _service.DeleteProduct(product);

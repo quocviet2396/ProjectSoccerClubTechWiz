@@ -1,0 +1,1 @@
+Session.SetString("accNo", model.Username) ở phần AuthenController.cs

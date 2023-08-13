@@ -10,6 +10,7 @@ namespace ProjectSoccerClubApp.Repositories
         Task<bool> editCompetition(Competition newCompetition);
 
         Task<Competition> GetCompetitionById(int id);
+        Task<bool> deleteCompetition(Competition newCompetition);
     }
 }
 
