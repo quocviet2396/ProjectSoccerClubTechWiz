@@ -20,6 +20,7 @@ builder.Services.AddScoped<ICategoryService, CategoryServiceImp>();
 builder.Services.AddScoped<IProductService, ProductServiceImp>();
 builder.Services.AddScoped<IOrderService, OrderServiceImp>();
 builder.Services.AddScoped<ICompetitionService, CompetitionServiceImp>();
+builder.Services.AddScoped<INewsService, NewsServiceImp>();
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 ﻿@model int
 
-<form asp-action="Delete" asp-controller="Product" method="post">
+<form asp-action="Delete" asp-controller="Product" method="post" class="product-delete-form">
     <input type="hidden" name="id" value="@Model" />
     <button type="submit" class="btn btn-danger">Delete</button>
 </form>

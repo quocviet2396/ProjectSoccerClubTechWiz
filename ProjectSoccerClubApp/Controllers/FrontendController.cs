@@ -13,24 +13,29 @@ namespace ProjectSoccerClubApp.Controllers
         private IMatchService _matchServ;
         private ICompetitionService cService;
         private IPlayerServices _playerServ;
+        private INewsService _newsServ;
 
 
-        public FrontendController(ILogger<FrontendController> logger, ITeamServices teamServ, IMatchService matchServ, ICompetitionService cService, IPlayerServices playerServ)
+        public FrontendController(ILogger<FrontendController> logger, ITeamServices teamServ, IMatchService matchServ, ICompetitionService cService, IPlayerServices playerServ, INewsService newsServ)
         {
             _logger = logger;
             _teamServ = teamServ;
             _matchServ = matchServ;
             this.cService = cService;
             _playerServ = playerServ;
+            _newsServ = newsServ;
         }
 
         public async Task<IActionResult> Index()
         {
+            var news = await _newsServ.GetNewsList();
+
             var top10players = await _playerServ.GetTop10Players();
             var viewModel = new CombinedModel_HomePage
             {
-                Top10Players = top10players
-            };
+                Top10Players = top10players,
+                News = news.Take(3).ToList()
+        };
             return View(viewModel);
         }
 
@@ -50,10 +55,22 @@ namespace ProjectSoccerClubApp.Controllers
             return View(player);
         }
 
+        public async Task<IActionResult> NewsDetail(int id)
+        {
+            var newsItem = await _newsServ.GetNewsById(id);
+            if (newsItem == null)
+            {
+                return NotFound();
+            }
+            return View(newsItem);
+        }
+
+
+
         public async Task<IActionResult> Match(int? competitionId)
         {
             var matches = await _matchServ.GetMatchList();
-            var competitions = await cService.GetCompetition(); // Lấy danh sách giải đấu
+            var competitions = await cService.GetCompetition(); 
 
             foreach (var item in matches)
             {
@@ -65,7 +82,7 @@ namespace ProjectSoccerClubApp.Controllers
                 item.Competition = competition;
             }
 
-            ViewBag.Competitions = competitions; // Truyền danh sách giải đấu vào ViewBag
+            ViewBag.Competitions = competitions; 
 
             if (competitionId.HasValue)
             {
@@ -74,15 +91,16 @@ namespace ProjectSoccerClubApp.Controllers
 
             return View(matches);
         }
-       
 
 
 
 
 
-        public IActionResult News()
+
+        public async Task<IActionResult> News()
         {
-            return View();
+            var news = await _newsServ.GetNewsList();
+            return View(news);
         }
 
         public IActionResult About()

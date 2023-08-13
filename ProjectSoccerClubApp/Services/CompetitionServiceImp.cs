@@ -38,7 +38,12 @@ namespace ProjectSoccerClubApp.Services
             return await db.Competition.FirstOrDefaultAsync(c => c.Id == id);
         }
 
-
+        public async Task<bool> deleteCompetition(Competition newCompetition)
+        {
+            db.Competition.Remove(newCompetition);
+            await db.SaveChangesAsync();
+            return true;
+        }
     }
 }
 

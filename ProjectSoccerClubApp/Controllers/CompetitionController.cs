@@ -14,11 +14,12 @@ namespace ProjectSoccerClubApp.Controllers
     {
         private ICompetitionService _service;
         private IAuthenService aService;
-        public CompetitionController(ICompetitionService service, IAuthenService aService)
+        private IMatchService mService;
+        public CompetitionController(ICompetitionService service, IAuthenService aService, IMatchService mService)
         {
             _service = service;
             this.aService = aService;
-
+            this.mService = mService;
         }
 
         public async Task<IActionResult> Index()
@@ -64,6 +65,29 @@ namespace ProjectSoccerClubApp.Controllers
                 ModelState.AddModelError(string.Empty, ex.Message);
                 return View(newCompetition);
             }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var competition = await _service.GetCompetitionById(id);
+            var competMatches = await mService.GetMatchesByCompetition(id);
+            if (competition == null || competMatches.Count > 0)
+            {
+                return Json(new
+                {
+                    error = "Can not delete this competition."
+                });
+            }
+            bool isDeleted = await _service.deleteCompetition(competition);
+            if (isDeleted)
+            {
+                return Json(new
+                {
+                    success = "Deleted this competition."
+                });
+            }
+            return View();
         }
     }
 }

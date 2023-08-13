@@ -2609,6 +2609,26 @@
       "PackagePath": "staticwebassets\\images\\.DS_Store"
     },
     {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Home\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Home\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Home\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Home\\img4.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Home\\img5.jpg",
+      "PackagePath": "staticwebassets\\images\\Home\\img5.jpg"
+    },
+    {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\Logo\\Atlanta.png",
       "PackagePath": "staticwebassets\\images\\Logo\\Atlanta.png"
     },
@@ -2849,6 +2869,30 @@
       "PackagePath": "staticwebassets\\images\\Logo\\minnesota.png"
     },
     {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\IMG_00000150.jpg",
+      "PackagePath": "staticwebassets\\images\\News\\IMG_00000150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\MacBook Air 2020 13.3 inch4.webp",
+      "PackagePath": "staticwebassets\\images\\News\\MacBook Air 2020 13.3 inch4.webp"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\about1.jpg",
+      "PackagePath": "staticwebassets\\images\\News\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\gaudemo.png",
+      "PackagePath": "staticwebassets\\images\\News\\gaudemo.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\menu_2.jpg",
+      "PackagePath": "staticwebassets\\images\\News\\menu_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\News\\painting-sushi-plate-with-picture-fish-it.jpg",
+      "PackagePath": "staticwebassets\\images\\News\\painting-sushi-plate-with-picture-fish-it.jpg"
+    },
+    {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg.zip",
       "PackagePath": "staticwebassets\\images\\PlayerImg.zip"
     },
@@ -2977,12 +3021,104 @@
       "PackagePath": "staticwebassets\\images\\PlayerImg\\lotso.jpg"
     },
     {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\AirPod Case_12_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\AirPod Case_12_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Backpack_15_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Backpack_15_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Iphone Case_18_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Iphone Case_18_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Keyboard_9_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Keyboard_9_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Black Bender.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Black Bender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Bucket Hat_47_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Bucket Hat_47_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Fleece jacket_39_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Fleece jacket_39_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Pink Hoodie Jacket16_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Pink Hoodie Jacket16_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Sock Pink Black.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Sock Pink Black.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men White Solid Polo_26_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men White Solid Polo_26_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men Zip Jacket_19_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men Zip Jacket_19_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men-Knit-Hat.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men-Knit-Hat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men-Pink-Polo.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men-Pink-Polo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men_Black Hat.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men_Black Hat.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men_Jersey Messi.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men_Jersey Messi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Men_Jersey_Black Messi.jpeg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Men_Jersey_Black Messi.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\OIP 2.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\OIP 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\OIP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\OIP2.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\OIP2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\Speaker_10_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\Speaker_10_11zon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\White Headphone_11_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\White Headphone_11_11zon.jpg"
+    },
+    {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\gaudemo.png",
       "PackagePath": "staticwebassets\\images\\ProductPhoto\\gaudemo.png"
     },
     {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\ja28_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\ja28_11zon.jpg"
+    },
+    {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\lotso.jpg",
       "PackagePath": "staticwebassets\\images\\ProductPhoto\\lotso.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\ProductPhoto\\p13_11zon.jpg",
+      "PackagePath": "staticwebassets\\images\\ProductPhoto\\p13_11zon.jpg"
     },
     {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\about1.jpg",
@@ -3043,6 +3179,22 @@
     {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\image3.png",
       "PackagePath": "staticwebassets\\images\\image3.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\img4.jpg",
+      "PackagePath": "staticwebassets\\images\\img4.jpg"
     },
     {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\img_1.jpg",

@@ -43,7 +43,7 @@
                                             <div class="d-flex align-items-center gap-2">
                                                 <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
                                                
-                                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                                <a class="btn btn-danger competition-delete-btn" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                                             </div>
                                         </td>
                                     </tr>
@@ -58,5 +58,45 @@
 
     </div>
 </div>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.competition-delete-btn').on('click', function (e) {
+                e.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
 
+                var link = $(this);
+                var url = link.attr('href'); // Lấy URL từ thuộc tính href của liên kết
 
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    success: function (response) {
+                        if (response.error) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: response.error,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        }else{
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Success',
+                                text: "Competition is deleted successfully",
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        }  
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -152,4 +152,50 @@
 
     </div>
 </div>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.product-delete-form').on('submit', function (e) {
+                e.preventDefault();
 
+                var form = $(this);
+                var url = form.attr('action');
+                var data = form.serialize();
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data,
+                    success: function (response) {
+                        if (response.error) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: response.error,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        }else{
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Success',
+                                text: response.success,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Load lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        }  
+                    },
+                    error: function () {
+                        console.log("Error occurred during AJAX request.");
+                    }
+                });
+            });
+        });
+    </script>
+}

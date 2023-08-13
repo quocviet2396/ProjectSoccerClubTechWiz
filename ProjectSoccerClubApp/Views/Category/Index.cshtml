@@ -30,7 +30,7 @@
                                     <th class="border-bottom-0">
                                         <h6 class="fw-semibold mb-0">@Html.DisplayNameFor(model => model.status)</h6>
                                     </th>
-                                    
+
                                     <th class="border-bottom-0">
                                         <h6 class="fw-semibold mb-0">Action</h6>
                                     </th>
@@ -44,13 +44,11 @@
                                         <td class="border-bottom-0">
                                             <h6 class="fw-semibold mb-1">@Html.DisplayFor(modelItem => item.status)</h6>
                                         </td>
-                                       
-                                        
+
+
                                         <td class="border-bottom-0">
                                             <div class="d-flex align-items-center gap-2">
-                                                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a>
-                                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                                <button class="btn btn-danger category-delete-button" data-id="@item.Id">Delete</button>
                                             </div>
                                         </td>
                                     </tr>
@@ -66,4 +64,49 @@
     </div>
 </div>
 
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.category-delete-button').on('click', function (e) {
+                e.preventDefault();
 
+                var id = $(this).data('id');
+
+                $.ajax({
+                    type: 'POST',
+                    url: '/Category/Delete',  // Thay đổi 'ControllerName' thành tên thật của controller của bạn
+                    data: { id: id },
+                    success: function (response) {
+                        if (response.error) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: response.error,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Tải lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        } else if (response.success) {
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Success',
+                                text: response.success,
+                                confirmButtonText: 'OK'
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.reload(); // Tải lại trang nếu người dùng bấm OK
+                                }
+                            });
+                        }
+                    },
+                    error: function () {
+                        console.log('Error occurred during AJAX request.');
+                    }
+                });
+
+            });
+        });
+    </script>
+}
