@@ -48,6 +48,7 @@ namespace ProjectSoccerClubApp.Services
                 match.MatchTime = editMatch.MatchTime;
                 match.Stadium = editMatch.Stadium;
                 match.Result = editMatch.Result;
+                
                 await db.SaveChangesAsync();
                 return true;
             }

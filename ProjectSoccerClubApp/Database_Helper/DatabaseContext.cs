@@ -20,11 +20,14 @@ namespace ProjectSoccerClubApp.Database_Helper
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
 
+        public DbSet<Competition> Competition { get; set; }
+
+        public DbSet<News> News { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            string str = "server=.; database=MiamiDb; uid=sa; pwd=123456; TrustServerCertificate=true;";
+            string str = "server=DESKTOP-T6R536I\\SQLEXPRESS01; database=MiamiDb; uid=sa; pwd=123; TrustServerCertificate=true;";
             optionsBuilder.UseSqlServer(str);
         }
 

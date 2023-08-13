@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\images\News\" />
     <Folder Include="wwwroot\images\ProductPhoto\" />
     <Folder Include="wwwroot\images\PlayerImg\" />
   </ItemGroup>

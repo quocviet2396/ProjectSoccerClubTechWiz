@@ -19,6 +19,7 @@ builder.Services.AddScoped<ICreateAcountService, CreateAccountServiceImp>();
 builder.Services.AddScoped<ICategoryService, CategoryServiceImp>();
 builder.Services.AddScoped<IProductService, ProductServiceImp>();
 builder.Services.AddScoped<IOrderService, OrderServiceImp>();
+builder.Services.AddScoped<ICompetitionService, CompetitionServiceImp>();
 
 var app = builder.Build();
 

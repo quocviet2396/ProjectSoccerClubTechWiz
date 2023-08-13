@@ -17,135 +17,234 @@
 
 <div class="site-section site-blocks-vs">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="bg-image overlay-success rounded mb-5" style="background-image: url(@Url.Content("~/images/hero_bg_1.jpg"));" data-stellar-background-ratio="0.5">
+        @{
+            var sortedMatches = Model.OrderByDescending(m => m.Result != null)
+                 .ThenByDescending(m => m.Result != null ? m.MatchTime : DateTime.MaxValue)
+                 .Take(1)
+                 .ToList();
 
-                    <div class="row align-items-center">
-                        <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
 
-                            <div class="text-center text-lg-left">
-                                <div class="d-block d-lg-flex align-items-center">
-                                    <div class="image mx-auto mb-3 mb-lg-0 mr-lg-3">
-                                        <img src="@Url.Content("~/images/img_1_sq.jpg")" alt="Image" class="img-fluid">
+
+        }
+        @foreach (var item in sortedMatches)
+        {
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bg-image overlay-success rounded mb-5" style="background-image: url(@Url.Content("~/images/hero_bg_1.jpg"));" data-stellar-background-ratio="0.5">
+
+                        <div class="row align-items-center">
+                            <div class="col-md-12 col-lg-4 mb-4 mb-lg-0">
+
+                                <div class="text-center text-lg-left">
+                                    <div class="d-block d-lg-flex align-items-center">
+                                        <div class="image mx-auto mb-3 mb-lg-0 mr-lg-3">
+                                            <img src="@Url.Content("~/images/Logo/" + item.HomeTeam.Logo)" alt="@item.HomeTeam.TeamName" class="img-fluid">
+                                        </div>
+                                        <div class="text">
+                                            <h3 class="h5 mb-0 text-black">@item.HomeTeam.TeamName</h3>
+                                            <span class="text-uppercase small country text-black">@item.HomeTeam.TeamCity</span>
+                                        </div>
                                     </div>
-                                    <div class="text">
-                                        <h3 class="h5 mb-0 text-black">Sea Hawks</h3>
-                                        <span class="text-uppercase small country text-black">Brazil</span>
-                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
+                                <div class="d-inline-block">
+                                    <p class="mb-2"><small class="text-uppercase text-black font-weight-bold">Last Match</small></p>
+                                    <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h3"> <span class="h3">@item.Result</span></span></div>
+                                    <p class="mb-0"><small class="text-uppercase text-black font-weight-bold">@item.MatchTime.ToString("dd MMMM / h:mm tt")</small></p>
                                 </div>
                             </div>
 
-                        </div>
-                        <div class="col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
-                            <div class="d-inline-block">
-                                <p class="mb-2"><small class="text-uppercase text-black font-weight-bold">Premier League &mdash; Round 10</small></p>
-                                <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h3">3:2</span></div>
-                                <p class="mb-0"><small class="text-uppercase text-black font-weight-bold">10 September / 7:30 AM</small></p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-lg-4 text-center text-lg-right">
-                            <div class="">
-                                <div class="d-block d-lg-flex align-items-center">
-                                    <div class="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
-                                        <img src="@Url.Content("~/images/img_4_sq.jpg")" alt="Image" class="img-fluid">
-                                    </div>
-                                    <div class="text order-1">
-                                        <h3 class="h5 mb-0 text-black">Steelers</h3>
-                                        <span class="text-uppercase small country text-black">London</span>
+                            <div class="col-md-12 col-lg-4 text-center text-lg-right">
+                                <div class="">
+                                    <div class="d-block d-lg-flex align-items-center">
+                                        <div class="image mx-auto ml-lg-3 mb-3 mb-lg-0 order-2">
+                                            <img src="@Url.Content("~/images/Logo/" + item.AwayTeam.Logo)" alt="@item.AwayTeam.TeamName" class="img-fluid">
+                                        </div>
+                                        <div class="text order-1">
+                                            <h3 class="h5 mb-0 text-black">@item.AwayTeam.TeamName</h3>
+                                            <span class="text-uppercase small country text-black">@item.AwayTeam.TeamCity</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-md-12">
-                <div class="border mb-3 rounded d-block d-lg-flex align-items-center p-3 next-match">
-                    <div class="mr-auto order-md-1 w-60 text-center text-lg-left mb-3 mb-lg-0">
-                        Next match
-                        <div id="date-countdown"></div>
-                    </div>
-
-                    <div class="ml-auto pr-4 order-md-2">
-                        <div class="h5 text-black text-uppercase text-center text-lg-left">
-                            <div class="d-block d-md-inline-block mb-3 mb-lg-0">
-                                <img src="@Url.Content("~/images/img_1_sq.jpg")" alt="Image" class="mr-3 image"><span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">Sea Hawlks </span>
-                            </div>
-                            <span class="text-muted mx-3 text-normal mb-3 mb-lg-0 d-block d-md-inline ">vs</span>
-                            <div class="d-block d-md-inline-block">
-                                <img src="@Url.Content("~/images/img_3_sq.jpg")" alt="Image" class="mr-3 image"><span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">Patriots</span>
+                            <div class="col-md-12 text-center mt-4">
+                                @if (item.Competition != null)
+                                {
+                                    <p class="mb-0"><small class="text-uppercase text-black font-weight-bold">Competition: @item.Competition.Name</small></p>
+                                }
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-        <div class="row align-items-center mb-5">
-            <div class="col-md-12">
-                @foreach(var item in Model)
+        }
+    <div class="site-section site-blocks-vs">
+        <div class="container">
+            @{
+                var upcomingMatches = Model.Where(m => m.MatchTime > DateTime.UtcNow).OrderBy(m => m.MatchTime).ToList();
+                if (upcomingMatches.Any())
                 {
-                    <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry">
-                        <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
+                    var nextMatch = upcomingMatches.First();
+                    var countdownDate = nextMatch.MatchTime.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ");
 
-                            <div class="text-center text-lg-left">
-                                <div class="d-block d-lg-flex align-items-center">
-                                    <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
-                                        <img src="@Url.Content("~/images/Logo/" + item.HomeTeam.Logo)" alt="@item.HomeTeam.TeamName" class="img-fluid">
-                                    </div>
-                                    <div class="text">
-                                        <h3 class="h5 mb-0 text-black">@item.HomeTeam.TeamName</h3>
-                                        <span class="text-uppercase small country">@item.HomeTeam.TeamCity</span>
-                                    </div>
+                    <div class="border mb-3 rounded d-block d-lg-flex align-items-center p-3 next-match">
+                        <div class="mr-auto order-md-1 w-60 text-center text-lg-left mb-3 mb-lg-0">
+                            Next match
+                            (@nextMatch.Competition.Name)
+                            <div id="date-countdown"></div>
+                        </div>
+
+                        <div class="ml-auto pr-4 order-md-2">
+                            <div class="h5 text-black text-uppercase text-center text-lg-left">
+                                <div class="d-block d-md-inline-block mb-3 mb-lg-0">
+                                    <img src="@Url.Content("~/images/Logo/" + @nextMatch.HomeTeam.Logo)" alt="Image" class="mr-3 image">
+                                    <span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.HomeTeam.TeamName</span>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
-                            <div class="d-inline-block">
-                                <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded"><span class="h5">@(item.Result != null ? item.Result : item.MatchTime)</span></div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-lg-4 text-center text-lg-right">
-                            <div class="">
-                                <div class="d-block d-lg-flex align-items-center">
-                                    <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
-                                        <img src="@Url.Content("~/images/Logo/" + item.AwayTeam.Logo)" alt="@item.AwayTeam.TeamName" class="img-fluid">
-                                    </div>
-                                    <div class="text order-1 w-100">
-                                        <h3 class="h5 mb-0 text-black">@item.AwayTeam.TeamName</h3>
-                                        <span class="text-uppercase small country">@item.AwayTeam.TeamCity</span>
-                                    </div>
+                                <span class="text-muted mx-3 text-normal mb-3 mb-lg-0 d-block d-md-inline ">vs</span>
+                                <div class="d-block d-md-inline-block">
+                                    <img src="@Url.Content("~/images/Logo/" + @nextMatch.AwayTeam.Logo)" alt="Image" class="mr-3 image">
+                                    <span class="d-block d-md-inline-block ml-0 ml-md-3 ml-lg-0">@nextMatch.AwayTeam.TeamName</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                    var countdownDate = new Date('@countdownDate').getTime();
+                    var x = setInterval(function () {
+                        var now = new Date().getTime();
+                        var distance = countdownDate - now;
+                        var weeks = Math.floor(distance / (1000 * 60 * 60 * 24 * 7));
+                        var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                        var countdownHtml =
+                            '<span class="countdown-block"><span class="label">' + weeks + '</span> weeks </span>' +
+                            '<span class="countdown-block"><span class="label">' + days + '</span> days </span>' +
+                            '<span class="countdown-block"><span class="label">' + hours + '</span> hr </span>' +
+                            '<span class="countdown-block"><span class="label">' + minutes + '</span> min </span>' +
+                            '<span class="countdown-block"><span class="label">' + seconds + '</span> sec</span>';
+
+                        document.getElementById("date-countdown").innerHTML = countdownHtml;
+
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("date-countdown").innerHTML = "Match has started!";
+                        }
+                    }, 1000);
+                    </script>
                 }
+            }
+           
+        </div>
+    </div>
+        <div class="container">
+            <div class="col-md-4">
+                <label for="competitionSelect">Filter by Competition:</label>
+                <select id="competitionSelect" class="form-control">
+                    <option value="">All Competitions</option>
+                    @foreach (var competition in ViewBag.Competitions)
+                    {
+                        <option value="@competition.Id">@competition.Name</option>
+                    }
+                </select>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-12">
+                    @foreach (var item in Model)
+                    {
+                        <div class="row bg-white align-items-center ml-0 mr-0 py-4 match-entry" data-competition-id="@item.Competition.Id">
+                            <div class="col-md-4 col-lg-4 mb-4 mb-lg-0">
+                                <div class="text-center text-lg-left">
+                                    <div class="d-block d-lg-flex align-items-center">
+                                        <div class="image image-small text-center mb-3 mb-lg-0 mr-lg-3">
+                                            <img src="@Url.Content("~/images/Logo/" + item.HomeTeam.Logo)" alt="@item.HomeTeam.TeamName" class="img-fluid">
+                                        </div>
+                                        <div class="text">
+                                            <h3 class="h5 mb-0 text-black">@item.HomeTeam.TeamName</h3>
+                                            <span class="text-uppercase small country">@item.HomeTeam.TeamCity</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 text-center mb-4 mb-lg-0">
+                                <div class="d-inline-block">
+                                    <div class="bg-black py-2 px-4 mb-2 text-white d-inline-block rounded">
+                                        @if (item.Result != null)
+                                        {
+                                            <span class="h5 big-text">@item.Result</span><br>
+                                            <span class="small">@item.MatchTime</span><br>
+                                            <span class="small">@item.Competition.Name</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="h5">@item.MatchTime</span><br>
+                                            <span class="h5">@item.Competition.Name</span>
+                                        }
+                                        <p class="mb-0">
+                                            <small class="text-uppercase text-black font-weight-bold">
+                                                @if (item.Competition != null)
+                                                {
+                                                    @item.Competition.Name
+                                                }
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 text-center text-lg-right">
+                                <div class="">
+                                    <div class="d-block d-lg-flex align-items-center">
+                                        <div class="image image-small ml-lg-3 mb-3 mb-lg-0 order-2">
+                                            <img src="@Url.Content("~/images/Logo/" + item.AwayTeam.Logo)" alt="@item.AwayTeam.TeamName" class="img-fluid">
+                                        </div>
+                                        <div class="text order-1 w-100">
+                                            <h3 class="h5 mb-0 text-black">@item.AwayTeam.TeamName</h3>
+                                            <span class="text-uppercase small country">@item.AwayTeam.TeamCity</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    }
+                </div>
             </div>
         </div>
 
-        <!-- Pagination -->
+        <script>document.addEventListener("DOMContentLoaded", function () {
+                const selectElement = document.getElementById("competitionSelect");
+                const matchEntries = document.querySelectorAll(".match-entry");
 
-        <!-- <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="site-block-27">
-                    <ul>
-                        <li><a href="#">&lt;</a></li>
-                        <li class="active"><span>1</span></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
-                        <li><a href="#">&gt;</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>  -->
+                selectElement.addEventListener("change", function () {
+                    const selectedCompetitionId = this.value;
+
+                    matchEntries.forEach(function (entry) {
+                        const entryCompetitionId = entry.getAttribute("data-competition-id");
+
+                        if (selectedCompetitionId === "" || entryCompetitionId === selectedCompetitionId) {
+                            entry.style.display = ""; // Set display to default (usually "block")
+                        } else {
+                            entry.style.display = "none";
+                        }
+                    });
+                });
+            });</script>
+
+
+        <style>
+            .big-text {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        </style>
     </div>
 </div>
