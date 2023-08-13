@@ -2849,6 +2849,126 @@
       "PackagePath": "staticwebassets\\images\\Logo\\minnesota.png"
     },
     {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg.zip",
+      "PackagePath": "staticwebassets\\images\\PlayerImg.zip"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\ALBA.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\ALBA.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\ALLEN.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\ALLEN.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\AZCONA.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\AZCONA.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\BUSQ.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\BUSQ.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\CAMPANA.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\CAMPANA.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\CHRIS.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\CHRIS.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\CJ.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\CJ.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\COLE_11zon.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\COLE_11zon.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\CONRENTIN.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\CONRENTIN.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\CREMASCHI.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\CREMASCHI.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\DEANDRE.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\DEANDRE.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\DIXON.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\DIXON.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\DRAKE.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\DRAKE.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\GOMEZ.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\GOMEZ.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\GREGORE.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\GREGORE.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\HARVEY.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\HARVEY.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\IAN.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\IAN.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\MESSI.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\MESSI.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\MILLER.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\MILLER.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\MOTA.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\MOTA.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\NEGRI.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\NEGRI.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\NICOLAS.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\NICOLAS.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\Nullplayer.jpg",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\Nullplayer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\ROBBIE.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\ROBBIE.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\ROBER.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\ROBER.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\RUIZ.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\RUIZ.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\RYAB.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\RYAB.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\SHANYDER.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\SHANYDER.png"
+    },
+    {
+      "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\ULLOA.png",
+      "PackagePath": "staticwebassets\\images\\PlayerImg\\ULLOA.png"
+    },
+    {
       "Id": "C:\\Users\\T490\\Documents\\GitHub\\ProjectSoccerClubTechWiz\\ProjectSoccerClubApp\\wwwroot\\images\\PlayerImg\\gaudemo.png",
       "PackagePath": "staticwebassets\\images\\PlayerImg\\gaudemo.png"
     },
